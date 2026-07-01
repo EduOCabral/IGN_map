@@ -1,0 +1,35 @@
+Mapeamento de Rotas de IGN Brasil
+
+Mapeamento por diagrama no site IGN Brasil
+
+Eduardo, Cleiton e Felipe (1o Ano DS)
+Data: 25 de Junho de 2026
+
+    Este documento contém o mapeamento completo de arquitetura de informação, rotas
+críticas e análise preliminar de usabilidade do portal IGN Brasil (br.ign.com).
+O objetivo é guiar a construção do fluxograma no Draw.io e estruturar o
+armazenamento de evidências visuais (capturas de tela) no repositório GitHub.
+Abaixo estão listadas as principais rotas públicas do sistema, divididas por 
+suas respectivas categorias e hierarquias.
+
+[RAÍZ]
+└── https://br.ign.com/ (Home Page)
+    │
+    ├── [EDITORIAIS / NOTÍCIAS]
+    │   ├── /news/ ou /noticias/ (Hub Central de Notícias)
+    │   ├── /games/ (Notícias e novidades de Jogos)
+    │   ├── /movie/ ou /cinema-tv/ (Hub de Filmes, Séries e Streaming)
+    │   └── /tech/ (Hub de Tecnologia e Hardware)
+    │
+    ├── [CRÍTICAS / ANÁLISES]
+    │   ├── /review/ (Hub Central de Reviews de Jogos/Filmes)
+    │   └── /preview/ (Primeiras impressões de lançamentos)
+    │
+    ├── [CONTEÚDO DE APOIO]
+    │   ├── /guide/ ou /guias/ (Detonados, Dicas e Wikis de Jogos)
+    │   └── /video/ (Central de Vídeos, Trailers e Podcasts)
+    │
+    └── [FUNCIONALIDADES GLOBAIS]
+        ├── /search?q= (Mecanismo de Busca Interna)
+        ├── /sign-in / /register (Autenticação de Usuário / Playlist)
+        └── /playlist/ (Área logada: lista de jogos desejados/jogados)
